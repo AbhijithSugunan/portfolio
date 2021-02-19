@@ -1,7 +1,7 @@
 import React from 'react';
 import './sociallist.component.scss';
 import { IconContext } from "react-icons";
-  import  { TiSocialTwitter, TiSocialGithub, TiSocialLinkedin } from 'react-icons/ti'
+  import  { TiSocialTwitter, TiSocialGithub, TiSocialLinkedin, TiMail } from 'react-icons/ti'
 
 const SocialListComponent = () => {
     return(
@@ -13,15 +13,20 @@ const SocialListComponent = () => {
                     </a>
                 </li> 
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Abhijit50271796" aria-label="Abhijith Sugunan Twitter Account">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abhijithsugunan/" aria-label="Abhijith Sugunan LinkedIn Account">
                         <TiSocialLinkedin value={{ className: 'social-icons' }}  />
                     </a>
                 </li> 
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Abhijit50271796" aria-label="Abhijith Sugunan Twitter Account">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/AbhijithSugunan" aria-label="Abhijith Sugunan Github Account">
                         <TiSocialGithub value={{ className: 'social-icons' }}  />
                     </a>
-                </li> 
+                </li>
+                <li>
+                    <a target="_blank" rel="noreferrer" href="mailto:abijeeth@live.com" aria-label="Abhijith Sugunan Mail">
+                        <TiMail value={{ className: 'social-icons' }}  />
+                    </a>
+                </li>
             </ul>
             </IconContext.Provider>
     )
