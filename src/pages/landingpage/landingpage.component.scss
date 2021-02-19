@@ -1,0 +1,30 @@
+.landing-container {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1rem;
+    z-index: 10;
+    background-color: #2f2f2f;
+}
+.p-group {
+    
+    font-family: 'GFS Neohellenic', 'Lato', sans-serif;
+    color: #f2f2f2;
+
+    .p-name {
+        font-size: 4rem;
+        span {
+            color:#d9ca15;
+        }
+    }
+    .p-info {
+        margin: 20px 0px 0px;
+        max-width: 500px;
+        font-size: 1.5rem;
+        text-align: initial;
+    }
+}
